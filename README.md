@@ -4,6 +4,10 @@
 This app can be used to write, save, and delete reminders. This app will uses express.js to save and retrieve reminder data from a JSON file.
 
 
+![App Screenshot](./public/assets/screenshot-index.png "index screenshot")
+
+![App Screenshot](./public/assets/screenshot-reminders.png "reminders screenshot")
+
 # User Story
 ```
 As a user, 
