@@ -1,14 +1,27 @@
 {
-  "name": "note-taker",
+  "name": "remind-me",
   "version": "1.0.0",
-  "description": "",
+  "description": "Reminder app for organizing tasks",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kellymedia/remind-me/"
+  },
+  "author": "Michael Kelly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kellymedia/remind-me/issues"
+  },
+  "homepage": "https://github.com/kellymedia/remind-me#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.1",
+    "inquirer": "^7.0.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7"
   }
 }
